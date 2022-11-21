@@ -1,4 +1,5 @@
 <?php
+/*login page for <planner-go class="com"></planner-go>
 $errors = array();
 $username = $_POST['username'] ?? null;
 $password = $_POST['password'] ?? null;
