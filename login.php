@@ -32,9 +32,8 @@ $row = $stmt->fetch(); //get single row
         //   session_start(); //start session
             echo "test";
           //store anything you need to identify the user on other pages
-          $_SESSION['username'] = $username; //useful if you have a visual indicator "Hello Jamie"
-          $_SESSION['userid'] = $row['id']; //this is typically the database primary key for the user, so saving it means you have it when you need it as a foreign key
-          //redirect to main page
+          $_SESSION['username'] = $username; 
+          $_SESSION['userid'] = $row['id']; 
           header('Location: index.php');
           exit();
       
